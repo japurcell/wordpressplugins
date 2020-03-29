@@ -1,5 +1,15 @@
 {
-    "intelephense.diagnostics.undefinedFunctions": false,
-    "intelephense.diagnostics.undefinedConstants": false,
-    "intelephense.diagnostics.undefinedTypes": false
+  "editor.formatOnSave": true,
+  "phpfmt.passes": [
+    "AllmanStyleBraces",
+    "AutoSemicolon",
+    "DoubleToSingleQuote",
+    "GeneratePHPDoc",
+    "NewLineBeforeReturn",
+    "PrettyPrintDocBlocks",
+    "RemoveSemicolonAfterCurly",
+    "ShortArray",
+    "StripExtraCommaInArray"
+  ],
+  "phpfmt.psr2": false
 }
